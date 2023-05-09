@@ -1,0 +1,33 @@
+.note {
+  background-color: $white;
+  max-width: 256px;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+  margin: 1em;
+  float: left;
+
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: $navy;
+  }
+
+  p {
+    font-size: 1.1rem;
+    font-weight: 100;
+    color: lighten(#000, 30);
+  }
+  .delete-btn-div {
+    text-align: end;
+    .delete-button {
+      margin-top: 0.75em;
+      color: $blue;
+      border: none;
+      outline: none;
+      background: none;
+      cursor: pointer;
+    }
+  }
+}

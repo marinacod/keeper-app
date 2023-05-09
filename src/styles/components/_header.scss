@@ -1,0 +1,14 @@
+header {
+  background-color: $blue;
+  margin: auto -2em;
+  padding: 1em 2em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+  h1 {
+    color: $white;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+  }
+}

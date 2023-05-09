@@ -1,0 +1,27 @@
+@import "abstracts/colors";
+@import "components/header";
+@import "components/footer";
+@import "components/note";
+@import "components/createPost";
+@import "helpers/mixins";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  padding: 0 2em;
+  background-color: lighten($grey, $amount: 6);
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+
+  @include breakpoints(mobile) {
+    padding: 0 0.5em;
+  }
+}
+
+.notes-container {
+  display: flex;
+}

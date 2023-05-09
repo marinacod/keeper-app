@@ -1,0 +1,120 @@
+header {
+  background-color: #51c4d3;
+  margin: auto -2em;
+  padding: 1em 2em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+header h1 {
+  color: #ffffff;
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  position: absolute;
+  text-align: center;
+  margin: auto -2em;
+  bottom: 0;
+  width: 100%;
+  height: 2.5em;
+}
+footer p {
+  color: #d8e3e7;
+}
+
+.note {
+  background-color: #ffffff;
+  max-width: 256px;
+  border-radius: 7px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 1em;
+  margin: 1em;
+  float: left;
+}
+.note h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  margin-bottom: 0.2em;
+  color: #132c33;
+}
+.note p {
+  font-size: 1.1rem;
+  font-weight: 100;
+  color: #4d4d4d;
+}
+.note .delete-btn-div {
+  text-align: end;
+}
+.note .delete-btn-div .delete-button {
+  margin-top: 0.75em;
+  color: #51c4d3;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+form {
+  position: relative;
+  width: 40%;
+  margin: 2em auto;
+  padding: 0.8em;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+@media (max-width: 767px) {
+  form {
+    width: 80%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  form {
+    width: 70%;
+  }
+}
+form input,
+form textarea {
+  border: none;
+  outline: none;
+  resize: none;
+  padding: 0.4em 0;
+  font-size: 1.2rem;
+  width: 100%;
+}
+form .add-btn-div {
+  text-align: end;
+}
+form .add-btn-div .add-button {
+  width: 50px;
+  height: 50px;
+  background: #51c4d3;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Dosis", sans-serif;
+}
+
+body {
+  padding: 0 2em;
+  background-color: #ebf1f3;
+  background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+}
+@media (max-width: 767px) {
+  body {
+    padding: 0 0.5em;
+  }
+}
+
+.notes-container {
+  display: flex;
+}/*# sourceMappingURL=styles.css.map */
